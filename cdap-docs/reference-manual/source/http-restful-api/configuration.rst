@@ -122,11 +122,6 @@ format, the output would be similar to (showing the first portion, reformatted t
       <source>yarn-default.xml</source>
     </property>
     <property>
-      <name>mapreduce.job.maxtaskfailures.per.tracker</name>
-        <value>3</value>
-      <source>mapred-default.xml</source>
-    </property>
-    <property>
       <name>hbase.rest.threads.min</name>
         <value>2</value>
       <source>hbase-default.xml</source>
