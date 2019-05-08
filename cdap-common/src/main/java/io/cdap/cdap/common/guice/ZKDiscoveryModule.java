@@ -105,7 +105,7 @@ public final class ZKDiscoveryModule extends PrivateModule {
     @Override
     public ServiceDiscovered discover(final String name) {
       for (ProgramType programType : ProgramType.values()) {
-        if (programType.isDiscoverable() && name.startsWith(programType.getDiscoverablePrefix())) {
+        if (programType.isDiscoverable() && name.startsWith(programType.getDiscoverableTypeName() + ".")) {
           return clients.getUnchecked(name).discover(name);
         }
       }
