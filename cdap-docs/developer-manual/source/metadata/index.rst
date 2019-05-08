@@ -18,7 +18,6 @@ Metadata
     Discovery and Lineage <discovery-lineage>
     Field Level Lineage <field-lineage>
     Audit Logging <audit-logging>
-    CDAP Metadata UI <metadata-ui>
     Accessing metadata programmatically <programmatic-metadata>
 
 
@@ -73,12 +72,6 @@ object associated with a single entity is limited to 10K bytes in size.
 - |audit-logging|_ provides a chronological ledger containing evidence of operations or
   changes on CDAP entities.
 
-
-.. |metadata-ui| replace:: **CDAP Metadata UI:**
-.. _metadata-ui: metadata-ui.html
-
-- |metadata-ui|_ lets you see how data is flowing into and out of datasets, streams, and
-  stream views.
 
 .. |programmatic-metadata| replace:: **Accessing metadata programmatically:**
 .. _programmatic-metadata: programmatic-metadata.html
