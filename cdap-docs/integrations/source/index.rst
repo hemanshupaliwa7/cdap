@@ -11,21 +11,21 @@ Integrations
 
 .. rubric:: Hub
 
-.. |cdap-hub-overview| replace:: **Overview:**
-.. _cdap-hub-overview: cdap-hub.html#overview
+.. |hub-overview| replace:: **Overview:**
+.. _hub-overview: hub.html#overview
 
-- |cdap-hub-overview|_ Summary of the **Hub,** a source for re-usable
+- |hub-overview|_ Summary of the **Hub,** a source for re-usable
   applications, data, and code for CDAP users
 
-.. |cdap-hub-api| replace:: **API:**
-.. _cdap-hub-api: ccdap-hub.html#api
+.. |hub-api| replace:: **API:**
+.. _hub-api: hub.html#api
 
-- |cdap-hub-api|_ Hub APIs used to create entities in a Hub
+- |hub-api|_ Hub APIs used to create entities in a Hub
 
-.. |cdap-hub-custom| replace:: **Custom Hosting:**
-.. cdap-hub-custom: cdap-hub.html#custom
+.. |hub-custom| replace:: **Custom Hosting:**
+.. hub-custom: hub.html#custom
 
-- |cdap-hub-custom|_ Hosting your own custom Hub
+- |hub-custom|_ Hosting your own custom Hub
 
 
 .. rubric:: Cloudera
