@@ -58,7 +58,7 @@ public final class ServiceDiscoverable {
   }
 
   public static String getName(String namespaceId, String appId, ProgramType programType, String programName) {
-    if (!SHORT_NAME_TO_PROGRAM_TYPE_MAPPING.containsValue(programType)) {
+    if (!USER_SERVICE_TYPES.contains(programType)) {
       throw new IllegalArgumentException("Program type should be one of " + SHORT_NAME_TO_PROGRAM_TYPE_MAPPING);
     }
     return String.format("%s.%s.%s.%s", programType.getDiscoverableTypeName(), namespaceId, appId, programName);
