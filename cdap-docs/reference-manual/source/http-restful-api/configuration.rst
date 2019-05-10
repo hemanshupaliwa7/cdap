@@ -117,6 +117,11 @@ format, the output would be similar to (showing the first portion, reformatted t
       <source>hbase-default.xml</source>
     </property>
     <property>
+      <name>mapreduce.job.maxtaskfailures.per.tracker</name>
+        <value>3</value>
+      <source>mapred-default.xml</source>
+    </property>
+    <property>
       <name>yarn.ipc.rpc.class</name>
         <value>org.apache.hadoop.yarn.ipc.HadoopYarnProtoRPC</value>
       <source>yarn-default.xml</source>
