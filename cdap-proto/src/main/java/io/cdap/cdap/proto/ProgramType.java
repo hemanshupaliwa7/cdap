@@ -275,7 +275,8 @@ public enum ProgramType {
       }
 
       Parameters build() {
-        return new Parameters(prettyName, listable, categoryName, discoverableTypeName, schedulableType, apiProgramType);
+        return new Parameters(prettyName, listable, categoryName, discoverableTypeName, schedulableType,
+                              apiProgramType);
       }
     }
   }
